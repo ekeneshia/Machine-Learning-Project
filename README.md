@@ -22,10 +22,10 @@ The goal of this project is to leverage Natural Language Processing (NLP) techni
 Project Assumptions:
 - The dataset used for training is representative of real-world disaster-related tweets.
 - The dataset used for training is representative of real-world disaster-related tweets. 
-LSTM, CNN, and RNN are well-suited for text classification tasks, especially in identifying relevant disaster-related content.
+BiLSTM, CNN, and RNN are well-suited for text classification tasks, especially in identifying relevant disaster-related content.
 
 Three labeled datasets were gotten from Kaggle:
-1. [Dataset1](#https://www.kaggle.com/c/nlp-getting-started/data) 
+1. [Dataset 1](https://www.kaggle.com/c/nlp-getting-started/data) 
 
 ## Resources (Software and Tools)
 The project utilizes the following tools:
