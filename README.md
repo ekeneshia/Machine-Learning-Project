@@ -25,7 +25,7 @@ Project Assumptions:
 LSTM, CNN, and RNN are well-suited for text classification tasks, especially in identifying relevant disaster-related content.
 
 Three labeled datasets were gotten from Kaggle:
-1. [https://www.kaggle.com/c/nlp-getting-started/data](#Dataset1) 
+1. [Dataset1](#https://www.kaggle.com/c/nlp-getting-started/data) 
 
 ## Resources (Software and Tools)
 The project utilizes the following tools:
