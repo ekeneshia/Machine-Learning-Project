@@ -13,9 +13,19 @@ Fiyinfoluwa Dideoluwa,
 Ekene Okeke, and 
 Josh Daisy 
 
+Problem Statement:
+During disasters such as earthquakes, floods, and wildfires, social media platforms like Twitter become relevant sources for gathering up to date information. However, the wide volume of tweets makes it difficult to manually filter relevant posts that provide vital updates on disasters from posts that are mere noise. This project focuses on developing an automated system to classify and extract critical disaster-related tweets, enabling faster and more effective emergency response. 
 
-Objective:
-Social media has become an important communication channel for staying up to date on critical events such as disasters. However; the sheer magnitude and diversity of posts it is hard to tell what is real. Platforms like Twitter, Instagram, and Facebook play crucial roles in circulating both essential and distracting information during disasters. Accurate classification of such information can help streamline emergency response efforts. This project utilizes three labeled datasets of tweets to build and evaluate effective models capable of performing this classification task.
+Goal and Motivation:
+The goal of this project is to leverage Natural Language Processing (NLP) techniques to develop an automated system that effectively classifies and extracts disaster-related tweets to support emergency response efforts. The system will train and evaluate the performance of three deep learning models: Bidirectional Long Short-Term Memory (BiLSTM), Convolutional Neural Network (CNN), and Recurrent Neural Network (RNN). 
+
+Project Assumptions:
+- The dataset used for training is representative of real-world disaster-related tweets.
+- The dataset used for training is representative of real-world disaster-related tweets. 
+LSTM, CNN, and RNN are well-suited for text classification tasks, especially in identifying relevant disaster-related content.
+
+Three labeled datasets were gotten from Kaggle:
+// will add links later
 
 ## Resources (Software and Tools)
 The project utilizes the following tools:
@@ -27,3 +37,15 @@ The project utilizes the following tools:
 
 
 ## Installation and Experiment run
+1. Download the Code
+Download the project code and save it to a convenient location on your computer.
+Navigate to the Project Directory
+Open a terminal or command prompt and change the directory to the project folder. 
+
+2. Run Data Preprocessing
+Before training any models, run the data preprocessing notebook to prepare the raw data:
+- Open Data_Preprocessing.ipynb using Jupyter Notebook or any supported environment.
+- Run all cells to complete the data preprocessing steps.
+
+3. Run Individual Models
+After preprocessing is complete, you can run each model notebook individually to train and evaluate the models.
