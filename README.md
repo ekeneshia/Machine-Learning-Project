@@ -9,8 +9,8 @@
 Course Title: Machine Learning (CSC 4850/6850)
 
 Group Members:
-Fiyinfoluwa Dideoluwa 
-Ekene Okeke 
+Fiyinfoluwa Dideoluwa, 
+Ekene Okeke, and 
 Josh Daisy 
 
 
